@@ -6,7 +6,7 @@ PORT = 8080
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self) -> None:
-        body = "<h1>Hello, Maaz!</h1><p>Today is Wednesday, 4 November 2026.</p>".encode()
+        body = "<h1>Hi, Maaz!</h1><p>Today is Wednesday, 4 November 2026.</p>".encode()
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
