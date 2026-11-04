@@ -26,6 +26,8 @@ Then open <http://localhost:8080>. Stop and remove it with `docker rm -f greeter
 
 ## Run straight from Docker Hub (no source code needed)
 
+Image: [maazamjad110/docker-kickstart](https://hub.docker.com/r/maazamjad110/docker-kickstart)
+
 ```bash
 docker run -d -p 8080:8080 maazamjad110/docker-kickstart:1.1
 ```
